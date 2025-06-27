@@ -9,3 +9,7 @@ const gameName = new String("Call of Duty");
 console.log(gameName[0]); 
 console.log(gameName.length);
 console.log(gameName._proto_);
+console.log(gameName.toUpperCase());
+console.log(gameName.toLowerCase());
+console.log(gameName.charAt(5));
+console.log(gameName.indexOf("Duty"));

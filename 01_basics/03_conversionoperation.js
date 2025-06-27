@@ -70,5 +70,23 @@ let gameCounter=100
 gameCounter;
 console.log (gameCounter);
 
+console.log(typeof anotherId); 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++
 
+//Stack(Primitive),Heap(NOn-Primitive)
+
+ let myYouTubeName = "Ujjwal"
+ let anotherName = myYouTubeName
+anotherName = "Ujjwal Gola"
+ console.log(anotherName);
+ console.log(myYouTubeName);
+
+ let userOne = {
+    email:"ujj@gmail.com",
+    userId: "user123"
+    }
+let userTwo = userOne
+userTwo.email = "raj@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
